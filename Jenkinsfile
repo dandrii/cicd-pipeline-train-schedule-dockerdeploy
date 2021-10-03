@@ -16,7 +16,7 @@ pipeline {
                 script {
                     app = docker.build("adoronin1/train-schedule")
             
-                    }
+                    
                 }
             }
         }
